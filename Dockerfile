@@ -1,6 +1,6 @@
-FROM        openjdk:16-slim
+FROM        openjdk:17-slim
 
-LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL       author="Nick Brouwer" maintainer="nick@blackforthosting.com"
 
 RUN apt-get update -y \
  && apt-get install -y curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
